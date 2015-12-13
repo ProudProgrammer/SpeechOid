@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#F5D0A9"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bt_panic"
+        style="@style/button_text_panic"
+        android:layout_alignParentBottom="true"
+        android:drawableLeft="@drawable/panic"
+        android:text="@string/panic" />
+    
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_above="@id/bt_panic"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <Button
+                android:id="@+id/bt_bankuti_elmegygeci"
+                android:drawableLeft="@drawable/bankuti"
+                style="@style/button_text"
+                android:text="@string/bankuti_elmegygeci" />
+
+            <Button
+                android:id="@+id/bt_bankuti_majdhafuggolegesenleszminden"
+                android:drawableLeft="@drawable/bankuti"
+                style="@style/button_text"
+                android:text="@string/bankuti_majdhafuggolegesenleszminden" />
+            
+
+            <Button
+                android:id="@+id/bt_bankuti_nincsfuggolegesen"
+                android:drawableLeft="@drawable/bankuti"
+                style="@style/button_text"
+                android:text="@string/bankuti_nincsfuggolegesen" />
+
+            <Button
+                android:id="@+id/bt_bankuti_nyomjadtegeci"
+                android:drawableLeft="@drawable/bankuti"
+                style="@style/button_text"
+                android:text="@string/bankuti_nyomjadtegeci" />
+
+            <Button
+                android:id="@+id/bt_bankuti_szopjatokki"
+                android:drawableLeft="@drawable/bankuti"
+                style="@style/button_text"
+                android:text="@string/bankuti_szopjatokki" />
+
+            <Button
+                android:id="@+id/bt_mabel_azfinomlesz"
+                android:drawableLeft="@drawable/mabel"
+                style="@style/button_text"
+                android:text="@string/mabel_azfinomlesz" />
+
+            <Button
+                android:id="@+id/bt_mabel_bocsanathogyelek"
+                android:drawableLeft="@drawable/mabel"
+                style="@style/button_text"
+                android:text="@string/mabel_bocsanathogyelek" />
+
+            <Button
+                android:id="@+id/bt_mabel_kikuldtekaszobabol"
+                android:drawableLeft="@drawable/mabel"
+                style="@style/button_text"
+                android:text="@string/mabel_kikuldtekaszobabol" />
+
+            <Button
+                android:id="@+id/bt_mabel_micsodakiskurva"
+                android:drawableLeft="@drawable/mabel"
+                style="@style/button_text"
+                android:text="@string/mabel_micsodakiskurva" />
+            
+            <Button
+                android:id="@+id/bt_almasikristof_szalmazsak"
+                android:drawableLeft="@drawable/almasikristof"
+                style="@style/button_text"
+                android:text="@string/almasikristof_szalmazsak" />
+            <Button
+                android:id="@+id/bt_quagmire_kapszegymelegarcpakolast"
+                android:drawableLeft="@drawable/quagmire"
+                style="@style/button_text"
+                android:text="@string/quagmire_kapszegymelegarcpakolast" />
+            
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

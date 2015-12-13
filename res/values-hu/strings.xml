@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpeechOid</string>
+    <string name="action_settings">Beállítások</string>
+    <string name="bankuti_elmegygeci">Bánkuti: Elmegy geci</string>
+    <string name="bankuti_majdhafuggolegesenleszminden">Bánkuti: Majd ha függőlegesen lesz</string>
+    <string name="bankuti_nincsfuggolegesen">Bánkuti: Nincs függőlegesen</string>
+    <string name="bankuti_nyomjadtegeci">Bánkuti: Nyomjad te geci</string>
+    <string name="bankuti_szopjatokki">Bánkuti: Szopjatok ki</string>
+    <string name="mabel_azfinomlesz">Mabel: Az finom lesz</string>
+    <string name="mabel_bocsanathogyelek">Mabel: Bocsánat hogy élek</string>
+    <string name="mabel_kikuldtekaszobabol">Mabel: Kiküldték a szobából</string>
+    <string name="mabel_micsodakiskurva">Mabel: Micsoda kis kurva</string>
+    <string name="panic">Pánik gomb</string>
+    <string name="starting_media_has_been_deleted">Indításkor lejátszódó hang hatástalanítva</string>
+    <string name="starting_media_has_been_adjusted">Indításkor lejátszódó hang beállítva</string>
+    <string name="almasikristof_szalmazsak">Almási Kristóf: Szalmazsák</string>
+    <string name="quagmire_kapszegymelegarcpakolast">Quagmire: Kapsz egy meleg arcpakolást</string>
+
+</resources>
